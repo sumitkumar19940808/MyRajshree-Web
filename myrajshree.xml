@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="rajshree.MainWebsite">
+      	<methods>
+      		<include name="checkTitle"/>
+      		<include name="termandcondition"/>
+      		<include name="loginOperator"/>
+      		<include name="selectPayment"/>
+      		<include name="selectWallet"/>
+      		<include name="selectGame"/>
+      		<include name="checklotterynameonLP"/>
+      		<include name ="luckynumber"/>
+      		<include name="isGovtLogo"/>
+      		<include name="isTestingTicket"/>
+      		<include name="lotteryName"/>
+      	</methods>
+      </class>
+      <class name="rajshree.checkTicket">
+      	<methods>
+      		<include name="isGovtLogo"/>
+      		<include name="isTestingTicket"/>
+      		<include name="lotteryName"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
